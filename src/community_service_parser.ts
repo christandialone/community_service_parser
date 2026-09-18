@@ -8,7 +8,8 @@ type CommunityRequest = {
     class: string,
     place: string,
     building: string,
-    complainer: string | string[]
+    complainer: string | string[];
+    extra?: number
 }
 
 const request: CommunityRequest = {
